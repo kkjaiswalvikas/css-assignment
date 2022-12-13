@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.candel1,.candel2,.candel3{
+    box-shadow: 5px 5px 10px 10px rgba(128, 128, 128, 0.452);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.candel1Div1{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient( #9d2c25 , #f03e6b, #9d2c25);
+}
+.candel1Div2{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient( #9d2c25 , #f03e6b, #9d2c25);
+    opacity: 0.5;
+    filter: blur(2px);
+
+}
+.candel1Div3{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient( #9d2c25 , #f03e6b, #9d2c25);
+}
+.line{
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    box-shadow: 20px 0px black;
+}
+.candel2Div1{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient( rgb(47, 107, 47), rgb(15, 231, 15), rgb(47, 107, 47));
+}
+.candel2Div2{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient( rgb(47, 107, 47), rgb(15, 231, 15), rgb(47, 107, 47));
+    opacity: 0.5;
+    filter: blur(2px);
+}
+.candel2Div3{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient( rgb(47, 107, 47), rgb(15, 231, 15), rgb(47, 107, 47));
+}
+.candel3Div1{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient( rgb(35, 35, 78), rgb(66, 66, 240), rgb(35, 35, 78));
+}
+.candel3Div2{
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient( rgb(35, 35, 78), rgb(66, 66, 240), rgb(35, 35, 78));
+    opacity: 0.5;
+    filter: blur(2px);
+}
+.candel3Div3{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient( rgb(35, 35, 78), rgb(66, 66, 240), rgb(35, 35, 78));
+}

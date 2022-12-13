@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.maincontanerBlue{
+    height: 70vh;
+    width: 50vw;
+    background-color: #191b28;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hidderDisplayContainer{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.displayCointener{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.totalCointener{
+    height: 80%;
+    width: 15%;
+    border-radius: 5px;
+    background-color: #fc0067;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.numberContainer{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.numberContainerLeft{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.num{
+    width: 30%;
+    height: 16%;
+    background-color: #65268f; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.special{
+    width: 30%;
+    height: 16%;
+    background-color: #fc0067;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.symbolContainerRight{
+    height: 90%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sym{
+    width: 90%;
+    height: 16%; 
+    background-color: #65268f; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+}
